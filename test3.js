@@ -13,6 +13,9 @@ export default class test3 extends Component {
     shouldComponentUpdate() {
         return true;
     }
+    getSnapshotBeforeUpdate() {
+        return null;
+    }
     render() {
         return (
             <div>test3</div>
